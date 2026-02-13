@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>Viewerport's Blog</title>
+
+    <meta charset="utf-8">
+
+    <link rel = "stylesheet" href = "style.css">
+  </head>
+
+  <body>
+    <div class = "sidebar"></div>
+    <script src = "jquery-4.0.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+	$(".sidebar").load("sidebar.html");
+      });
+    </script>
+
+    <div class = "main">
+      <h1>Hello World</h1>
+      <p>This is a place where I put things I have written and am willing to share.</p>
+      <p>Click on the links in the sidebar to navigate to different pages.</p>
+      <p>You can use Control F to find a page (sorry, no search function built-in).</p>
+    </div>
+  </body>
+
+</html>
